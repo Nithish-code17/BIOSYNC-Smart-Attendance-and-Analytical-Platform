@@ -37,7 +37,7 @@ BIOSYNC automatically generates WhatsApp-style attendance reports and sends them
 
 The system includes dashboard modules for administrators, staff, and parents to track attendance information easily.
 
-### Parent Attendance Tracking
+### Parent Attendance T
 
 Parents can monitor the attendance details of their respective child through the parent dashboard.
 
