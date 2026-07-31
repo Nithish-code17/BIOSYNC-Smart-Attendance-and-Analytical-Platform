@@ -3,7 +3,7 @@
 BIOSYNC is a fully automated biometric attendance management system designed to synchronize biometric attendance data, process institutional attendance records, generate structured reports, and deliver real-time attendance updates through WhatsApp and dashboard-based monitoring.
 
 The system is built to reduce manual attendance work by automating data extraction, validation, report generation, backup, and communication between the institution, staff, stu
-BIOSYNC is developed as an innt attendance automation platform for educational institutions. It connects biometric attendance data with automated processing tools and real-time reporting system
+BIOSYNC is developed as an innt attendance automation platform for educational institutions. It connects biometric attendance data with automated processing tools and real-time
 The project focuses on accuracy, automation, reliabilityeasy monitoring. It helps institutions manage attendance data more efficiently by converting raw biometric logs into meaningful attendance summaries and reports.
 
 ---
