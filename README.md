@@ -11,7 +11,7 @@ The project focuses on accuracy, automation, reliabilityeasy monitoring. It help
 
 - Automated biometric attendance synchronization
 - Real-time attendance processing
-- WhatsApp-based attendance report delivery
+- WhatsApp-based attendancet delivery
 - Admin, staff, and parent dashboard modules
 - Student-wise and department-wise attendance tracking
 - Google Drive backup and cloud synchronization
