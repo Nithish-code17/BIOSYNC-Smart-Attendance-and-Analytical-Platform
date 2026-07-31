@@ -33,8 +33,7 @@ BIOSYNC processes attendance data collected from biometric devices and converts 
 
 ### Automated Attendance Processing
 
-The system cleans, validates, and organizes raw biometric data into institution-ready attendance formats.
-
+The system cleans, validates, and organizes raw biometric data into institution-ready attendance fo
 ### WhatsApp Report Automation
 
 BIOSYNC automatically generates WhatsApp-style attendance reports and sends them to the required groups or users.
