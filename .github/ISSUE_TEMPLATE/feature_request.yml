@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to BIOSYNC
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Describe the problem this feature would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Explain the expected workflow and affected modules.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Security and privacy impact
+      description: Explain whether the change handles credentials, biometric identifiers, attendance records, contact details, or remote access.
+    validations:
+      required: true
