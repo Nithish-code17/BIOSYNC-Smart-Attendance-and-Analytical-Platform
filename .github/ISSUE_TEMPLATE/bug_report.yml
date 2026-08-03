@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a reproducible BIOSYNC problem
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Do not include real biometric records, attendance data, phone numbers, credentials, tokens, browser profiles, or institution-private files.
+  - type: input
+    id: version
+    attributes:
+      label: BIOSYNC version or commit
+      placeholder: Commit SHA or release version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Windows version and Python version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Explain what happened using synthetic or anonymized data.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run...
+        2. Configure...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs
+      description: Remove all private, identifying, institutional, and credential data.
+      render: shell
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I confirmed that this report contains no real biometric, student, staff, contact, credential, or institution-private data.
+          required: true
